@@ -1,6 +1,6 @@
 
-http://daldspm01/reports/rwservlet/showjobs?server=RptSvr_DALDSPM01_asinst_1
+http://reportserver/reports/rwservlet/showjobs?server=RptSvr_hostname_asinst_1
 
-http://daldspm01/reports/rwservlet?server=RptSvr_DALDSPM01_asinst_1+report=M-EPI-003.rdf+userid=m_sys/MSdev82011_2020@spmd03+destype=file+desformat=enhancedspreadsheet+desname=C:\MARIAN\client\ptf\M-EPI-003_OUT1.pdf+PARAMFORM=YES
+http://reportserver/reports/rwservlet?server=RptSvr_hostname_asinst_1+report=M-EPI-003.rdf+userid=user/password@instance+destype=file+desformat=enhancedspreadsheet+desname=C:\MARIAN\client\ptf\M-EPI-003_OUT1.pdf+PARAMFORM=YES
 
-http://daldspm01/reports/rwservlet?server=RptSvr_DALDSPM01_asinst_1+report=M-EPI-003.rdf+userid=m_sys/MSdev82011_2020@spmd03+destype=file+desformat=pdf+desname=C:\MARIAN\client\ptf\M-EPI-003_OUT1.pdf+PARAMFORM=YES
+http://reportserver/reports/rwservlet?server=RptSvr_DALDSPM01_asinst_1+report=M-EPI-003.rdf+userid=user/password@instance+destype=file+desformat=pdf+desname=C:\MARIAN\client\ptf\M-EPI-003_OUT1.pdf+PARAMFORM=YES
