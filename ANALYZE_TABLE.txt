@@ -1,0 +1,22 @@
+
+
+exec dbms_stats.gather_schema_stats('M_SYS')
+SPOOL analyze_stat
+
+SELECT ' ANALYZE TABLE ' || table_name || ' DELETE STATISTICS; ' 
+  FROM tabs
+ WHERE temporary = 'Y';
+
+SPOOL OFF
+
+
+
+
+BEGIN
+   DBMS_STATS.GATHER_SCHEMA_STATS('M_SYS');
+END;
+/
+
+SELECT ' ANALYZE TABLE ' || table_name || ' DELETE STATISTICS; ' 
+  FROM tabs
+ WHERE temporary = 'Y';
